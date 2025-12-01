@@ -14,13 +14,17 @@ button:#69140e
 .container{
     width: 100%;
     min-height: 100vh;
-    background:linear-gradient(135deg, #e26d1f,#c95609, #a44200);
+    /* background:linear-gradient(135deg, #e26d1f,#c95609, #a44200); */
+    background-image: url(images/todo.jpg);
     padding: 10px;
+    background-size: cover;
+    background-position: center;
+
 }
 .todo-app{
     width: 100%;
     max-width: 540px;
-    background-color: #f3c798;
+    background: linear-gradient(180deg, #ebb993 0%, #f3c798 60%);
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
